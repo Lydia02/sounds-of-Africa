@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Discover the rich and vibrant world of African music through Sounds of Africa. Explore artists, genres, and the latest news in African music.">
+    <title>Sounds of Africa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Hero Section -->
+    <header class="hero" role="banner">
+          <!-- Navigation Bar -->
+          <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="artists.html">Artists</a></li>
+                <li><a href="genres.html">Genres</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+        <img src="img/african-music-art.jpeg" alt="A vibrant representation of African music" class="hero-image">
+        <div class="hero-content">
+            <h1>Welcome to Sounds of Africa</h1>
+            <p>Discover the rich and vibrant world of African music.</p>
+            <a href="#featured-artists" class="btn-explore">Explore Now</a>
+        </div>
+        <iframe 
+        width="100%" 
+        height="315" 
+        src="https://www.youtube.com/embed/RaxDl2X0pGU"
+        title="African Music Overview" 
+        frameborder="0" 
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen
+        class="hero-video">
+    </iframe>
+    
+    </header>
+
+    <main>
+        
+        <!-- Featured Artists Section -->
+<section id="featured-artists" class="featured-artists">
+    <h2>Featured African Artists</h2>
+    <div class="artist-grid">
+        <!-- Davido -->
+        <figure>
+            <img src="img/davido.jpeg" alt="Davido portrait">
+            <figcaption>
+                <strong>David Adeleke (Davido)</strong><br>
+                A Nigerian superstar known for his vibrant Afrobeat hits, captivating performances, and philanthropy. 
+                <a href="artists/davido.html" aria-label="Learn more about Davido">Learn more</a>
+
+            </figcaption>
+        </figure>
+
+        <!-- Angélique Kidjo -->
+        <figure>
+            <img src="img/angeli.jpeg" alt="Angélique Kidjo portrait">
+            <figcaption>
+                <strong>Angélique Kidjo</strong><br>
+                The "Queen of African Music," blending Beninese roots with global sounds, and a four-time Grammy Award winner. 
+                <a href="artists/angelique-kidjo.html" aria-label="Learn more about Angélique">Learn more</a>
+            </figcaption>
+        </figure>
+
+        <!-- Juma Jux -->
+        <figure>
+            <img src="img/juma.jpeg" alt="Juma Jux portrait">
+            <figcaption>
+                <strong>Juma Mussa Mkambala (Juma Jux)</strong><br>
+                A Tanzanian R&B sensation delivering soulful melodies and love ballads that resonate across Africa. 
+                <a href="artists/juma-jux.html" aria-label="Learn more about Juma">Learn more</a>
+            </figcaption>
+        </figure>
+    </div>
+</section>
+
+
+        <!-- Explore by Genre Section -->
+        <section class="genres">
+            <h2>Explore by Genre</h2>
+            <div class="genre-links">
+                <a href="genres/afrobeats.html">
+                    <img src="img/colofulgenre.jpeg" alt="Colorful illustration representing Afrobeats genre">
+                    <!-- Afrobeats -->
+                    <mark>Afrobeats</mark>
+                </a>
+                <a href="genres/highlife.html">
+                    <img src="img/africaMusic.jpeg" alt="A traditional Highlife music scene">
+                    <!-- Highlife -->
+                    <mark>Highlife</mark>
+                </a>
+                <a href="genres/mbalax.html">
+                    <img src="img/jumaperfoming.jpeg" alt="Tanzanian musicians performing">
+                    <!-- Tanzanian Music -->
+                     <mark>Tanzanian Music</mark>
+                </a>
+            </div>
+        </section>
+
+       <!-- Latest News Section -->
+       <section class="latest-news" aria-labelledby="news-heading">
+        <h2>Latest News</h2>
+        <div class="news-grid">
+            <!-- Davido News -->
+            <article>
+                <img src="img/davido-tour.jpeg" alt="Davido performing on stage during his global tour">
+                <h4>Davido Announces Global Tour</h4>
+                <p>
+                    Nigerian superstar <mark>Davido </mark> kicks off his highly anticipated global tour, bringing Afrobeat hits to audiences worldwide.
+                    <time datetime="2025-01-08">January 8, 2025</time>
+                </p>
+                <p>Read more: <a href="./artists/davido.html">Full story</a></p>
+
+            </article>
+
+            <!-- Angélique Kidjo News -->
+            <article>
+                <img src="img/kidjogrammy.jpeg" alt="Angélique Kidjo holding a Grammy award">
+                <h4>Angélique Kidjo Wins Another Grammy</h4>
+                <p>
+                    Celebrating the legendary <mark>Angélique Kidjo's </mark> Grammy victory for her groundbreaking album that blends African rhythms with global influences.
+                    <time datetime="2025-01-01">January 1, 2025</time>
+                </p>
+                <p>Read more: <a href="./artists/angelique-kidjo.html">Full story</a></p>
+            </article>
+
+            <!-- Juma Jux News -->
+            <article>
+                <img src="img/juma-press.jpeg" alt="Juma Jux speaking at a press conference">
+                <h4>Juma Jux Releases New Album</h4>
+                <p>
+                    Tanzanian R&B sensation <mark>Juma Jux </mark> unveils his latest album, featuring soulful melodies and collaborations with African stars.
+                    <time datetime="2025-01-05">January 5, 2025</time>
+                </p>
+                <p>Read more: <a href="./artists/juma-jux.html">Full story</a></p>
+            </article>
+        </div>
+    </section>
+</main>
+
+
+    <footer>
+        <p>&copy; 2025 Sounds of Africa. All Rights Reserved.</p>
+        <div class="social-media">
+            <a href="#" aria-label="Visit us on Facebook">Facebook</a> |
+            <a href="#" aria-label="Visit us on Twitter">Twitter</a> |
+            <a href="#" aria-label="Visit us on Instagram">Instagram</a>
+            
+        </div>
+    </footer>
+</body>
+</html>
